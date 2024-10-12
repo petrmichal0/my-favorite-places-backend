@@ -10,6 +10,7 @@ app.use(cors());
 // Endpoint for retrieving an address based on latitude and longitude
 app.get("/geocode", async (req, res) => {
   const { lat, lng } = req.query;
+  console.log("Received request with lat:", lat, "lng:", lng); // Přidej tento log
 
   if (!lat || !lng) {
     return res.status(400).send("Latitude and longitude are required");
@@ -19,8 +20,12 @@ app.get("/geocode", async (req, res) => {
     const response = await axios.get(
       `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=${process.env.GOOGLE_MAPS_API_KEY}`
     );
+    console.log("Data from Google Maps API:", response.data); // Přidej tento log
+
     res.json(response.data);
   } catch (error) {
+    console.error("Error fetching data from Google Maps API:", error); // Přidej tento log
+
     res.status(500).send("Error fetching data from Google Maps API");
   }
 });
