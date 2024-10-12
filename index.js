@@ -50,6 +50,8 @@ const cors = require("cors"); // Přidání CORS
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.use(cors());
+
 // Testovací endpoint s pevně zadanými hodnotami lat a lng
 app.get("/test-geocode", async (req, res) => {
   const lat = 50.0755; // Pevně zadaná zeměpisná šířka (např. Praha)
