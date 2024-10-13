@@ -87,8 +87,8 @@ The server will run on the specified port (default is 3000). You can access the 
 
 | HTTP Method | Endpoint      | Description                                 | Request Example                             | Response Example                            | Authorization Required |
 |-------------|---------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|------------------------|
-| GET         | /geocode      | Fetch address from latitude and longitude   | http://localhost:5000/geocode?lat=37.422&lng=-122.084 | `{ "results": [...], "status": "OK" }`       | No                     |
-| GET         | /map-preview  | Generate static map preview for a location  | http://localhost:5000/map-preview?lat=37.422&lng=-122.084 | `{ "imagePreviewUrl": "https://maps.googleapis.com/maps/api/staticmap?..." }` | No                     |
+| GET         | /geocode      | Fetch address from latitude and longitude   | http://localhost:3000/geocode?lat=37.422&lng=-122.084 | `{ "results": [...], "status": "OK" }`       | No                     |
+| GET         | /map-preview  | Generate static map preview for a location  | http://localhost:3000/map-preview?lat=37.422&lng=-122.084 | `{ "imagePreviewUrl": "https://maps.googleapis.com/maps/api/staticmap?..." }` | No                     |
 
 ## Backend Information
 
