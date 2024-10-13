@@ -73,7 +73,7 @@ To start the backend server, run the following command:
 npm start
 ```
 
-## The server will run on the specified port (default is 5000). You can access the API endpoints through [http://localhost:5000](http://localhost:5000).
+## The server will run on the specified port (default is 3000). You can access the API endpoints through [http://localhost:3000](http://localhost:3000).
 
 ### API Endpoints
 
