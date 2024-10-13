@@ -57,12 +57,20 @@ To run this application, you'll need to set up the following environment variabl
 2. **Define the required environment variables:**  
    Add the following variables to your `.env` file. Replace the placeholder values with your actual Google Maps API key.
 
-    ```env
-    PORT=5000
-    GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-    ```
+   ```env
+   PORT=5000
+   GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+   ```
 
-3. **Secure your environment variables:**  
+3. **Obtain a Google Maps API Key:**  
+   To get your API key, follow these steps:
+   
+   * Go to the [Google Cloud Console](https://console.cloud.google.com/).
+   * Create or select a project.
+   * Navigate to **APIs & Services** > **Credentials** and create a new API key.
+   * Enable the **Geocoding API** and **Maps Static API** from the API Library.
+
+4. **Secure your environment variables:**  
    Ensure your `.env` file is included in your `.gitignore` file to avoid exposing sensitive data.
 
 ## Usage
