@@ -58,7 +58,7 @@ To run this application, you'll need to set up the following environment variabl
    Add the following variables to your `.env` file. Replace the placeholder values with your actual Google Maps API key.
 
    ```env
-   PORT=5000
+   PORT=3000
    GOOGLE_MAPS_API_KEY=your_google_maps_api_key
    ```
 
