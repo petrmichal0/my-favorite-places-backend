@@ -97,7 +97,7 @@ The server will run on the specified port (default is 3000). You can access the 
 
 The backend for this project is hosted at the following URL:
 
-- **Backend API:** [https://my-favorite-places-backend-2c1cd3b2e4af.herokuapp.com/](https://my-favorite-places-backend-2c1cd3b2e4af.herokuapp.com/)
+- **Backend API:** https://my-favorite-places-backend-2c1cd3b2e4af.herokuapp.com/
 
 All API endpoints and detailed documentation on how to interact with the backend are provided in this README.
 
@@ -105,7 +105,7 @@ All API endpoints and detailed documentation on how to interact with the backend
 
 The frontend for this project is hosted at the following URL:
 
-- **Frontend Application:** [https://my-favorite-places-frontend-2c1cd3b2e4af.herokuapp.com/](https://my-favorite-places-frontend-2c1cd3b2e4af.herokuapp.com/)
+- **Frontend Application:** [https://snack.expo.dev/@petrmichal0/my-favorite-places-frontend?platform=android/](https://snack.expo.dev/@petrmichal0/my-favorite-places-frontend?platform=android/)
 
 You can access and interact with the application directly through this link. The frontend is designed to work seamlessly with the backend API.
 
@@ -137,4 +137,4 @@ My-Favorite-Places-Backend/
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the LICENSE file for details.
